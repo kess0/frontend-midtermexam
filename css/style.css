@@ -86,6 +86,12 @@ h2 {
     font-size: 22px;
 }
 
+h3 {
+    color: #FF4141;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+}
+
 .cover {
     width: 1350px;
     margin-top: 20px;
@@ -145,12 +151,6 @@ h2 {
     height: 400px;
     width: 650px;
     object-fit: cover;
-}
-
-h3 {
-    color: #FF4141;
-    text-transform: uppercase;
-    font-family: 'Roboto', sans-serif;
 }
 
 footer {
