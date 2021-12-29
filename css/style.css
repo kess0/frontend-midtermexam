@@ -1,0 +1,52 @@
+body {
+	background-color: #C6D5FF;
+}
+
+nav {
+	display: flex;
+}
+
+ul {
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    float: right;
+}
+
+li {
+    margin-left: 60px;
+    align-items: center;
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+}
+
+a.red:link {
+	color: #A00000;
+}
+a.red:visited {
+	color: #A00000;
+}
+a.red:hover {
+	color: #A00000;
+}
+
+a.black:link {
+	color: #000000;
+}
+a.black:visited 
+{
+	color: #000000;
+}
+a.black:hover {
+	color: #000000;
+}
+
+header {
+	position: relative;
+}
+
+footer {
+	background-color: #7F8094;
+}
