@@ -1,9 +1,9 @@
 body {
-	background-color: #C6D5FF;
+    background-color: #C6D5FF;
 }
 
 header {
-	position: relative;
+    position: relative;
     box-shadow: 0 2px 4px #707070;
     padding: 10px;
     margin-top: 20px;
@@ -13,7 +13,7 @@ header {
 }
 
 nav {
-	display: flex;
+    display: flex;
     background-color: #EBEBEB;
     width: 450px;
     float: right;
@@ -70,24 +70,24 @@ a {
 }
 
 a.red:link {
-	color: #A00000;
+    color: #A00000;
 }
 a.red:visited {
-	color: #A00000;
+    color: #A00000;
 }
 a.red:hover {
-	color: #A00000;
+    color: #A00000;
 }
 
 a.black:link {
-	color: #000000;
+    color: #000000;
 }
 a.black:visited 
 {
-	color: #000000;
+    color: #000000;
 }
 a.black:hover {
-	color: #000000;
+    color: #000000;
 }
 
 .container {
