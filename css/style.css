@@ -47,6 +47,20 @@ header {
 	position: relative;
 }
 
+p {
+	font-size: 15px;
+}
+
+h1 {
+	color:#000000;
+	font-size: 30px;
+}
+
+h2 {
+	color: #4D4F5C;
+	font-family: 'Roboto', sans-serif;
+}
+
 footer {
 	background-color: #7F8094;
 }
