@@ -2,19 +2,44 @@ body {
 	background-color: #C6D5FF;
 }
 
+header {
+	position: relative;
+    box-shadow: 0 2px 4px #707070;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    height: 65px;
+}
+
 nav {
-	display: flex;
+    display: flex;
+    background-color: #EBEBEB;
+    width: 450px;
+    float: right;
+    margin-top: 10px;
+    margin-right: 15px;
+}
+
+.logo {
+    width: 63.77px;
+    height: 90px;
+    float: left;
+    -o-object-fit: contain;
+       object-fit: contain;
+    margin-top: -10px;
+    margin-left: 15px;
 }
 
 ul {
     font-family: 'Roboto', sans-serif;
-    font-size: 25px;
-    float: right;
+    font-size: 15px;
+    font-weight: bold;
 }
 
 li {
-    margin-left: 60px;
-    align-items: center;
+    padding-left: 20px;
+    margin-right: 50px;
     display: inline-block;
 }
 
@@ -43,24 +68,106 @@ a.black:hover {
 	color: #000000;
 }
 
-header {
-	position: relative;
-}
-
 p {
 	font-size: 15px;
+    color: #7C7C91;
+    font-family: 'Roboto', sans-serif;
 }
 
 h1 {
 	color:#000000;
-	font-size: 30px;
+	font-size: 35px;
+    font-weight: bold;
 }
 
 h2 {
 	color: #4D4F5C;
 	font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+}
+
+.cover {
+    width: 1350px;
+    margin-top: 20px;
+    height: 350px;
+    object-fit: cover;
+}
+
+.container {
+    width: 1350px;
+    padding: 30px;
+}
+
+.grid {
+    display: grid;
+    grid-auto-flow: column;
+    padding: -50px;
+    justify-content: space-between;
+}
+
+.cont2 {
+    display: inline-block;
+    padding: -50px;
+    margin-top: 20px;
+}
+
+.article1 {
+    width: 650px;
+    justify-content: space-between;
+    border-bottom: dotted 1px #707070;
+    object-fit: cover;
+}
+
+.article2 {
+    width: 650px;
+    justify-content: space-between;
+    border-bottom: dotted 1px #707070;
+    object-fit: cover;
+}
+
+.article3 {
+    object-fit: cover;
+    width: 1350px;
+    margin-top: 50px;
+    line-height: 20px;
+} 
+
+.article3image {
+    height: 400px;
+    width: 650px;
+    object-fit: cover;
+    padding-right: 10px;
+    display: inline;
+    float: left;
+}
+
+.articleimage {
+    height: 400px;
+    width: 650px;
+    object-fit: cover;
+}
+
+h3 {
+    color: #FF4141;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
 }
 
 footer {
-	background-color: #7F8094;
+    background-color: #7F8094;
+    margin-top: 50px;
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    bottom: 0x;
+    height: 52px;
+}
+
+.icons {
+    width: 61.5px;
+    height: 40px;
+    display: flex;
+    float: right;
+    margin-top: 5px;
+    margin-right: 10px;
 }
